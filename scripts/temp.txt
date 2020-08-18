@@ -1,0 +1,36 @@
+{
+  "ApiApiPlanIds": {
+    "results": [
+      
+    ]
+  },
+  "ApiGroupIds": {
+    "results": [
+     
+    ]
+  },
+  "ApiIds": {
+    "results": [
+      "5a6d551f-30b8-4332-90c4-dfafb36812ac"
+    ]
+  },
+  "ApiKey": "f3752aef-ab15-48bb-ae70-ce6a5b97782d",
+  "CustomFieldValues": {
+    "results": [
+    ]
+  },
+  "Description": "TEST43APP",
+  "DisabledByType": "INTERNAL",
+  "KeySecret": "a7ead549-f3da-40d3-8177-1a9420a1c731",
+  "MagMasterKey": "45848d1a-1707-4344-9ddd-5d6413a9411b",
+  "MagScope": "string",
+  "Name": "TEST43APP",
+  "OauthCallbackUrl": null,
+  "OauthScope": "test43scope",
+  "OauthType": "confidential",
+  "OrganizationName": "Sample Org",
+  "OrganizationUuid": "5561fbed-5422-46d6-8358-c41a1b659d7f",
+  "Reason": "No Reason",
+  "Status": "ENABLED",
+  "Uuid": "e5296eaf-8caf-46ff-aafe-6f872bdf9d6f"
+}

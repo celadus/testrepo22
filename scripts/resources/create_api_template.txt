@@ -1,0 +1,16 @@
+{
+  "accessStatus": "PUBLIC",
+  "apiEulaUuid": "957b18c3-538c-4954-aa41-4d96d32ef835",
+  "apiServiceType": "REST",
+  "authenticationParameters": "{\"ApiKeyType\":\"query\"}",
+  "authenticationType": "APIKEY",
+  "description": "sample public description",
+  "locationUrl": "REPLACE_LOCATION_URL",
+  "managingOrgUuid": "5561fbed-5422-46d6-8358-c41a1b659d7f",
+  "name": "REPLACE_API_NAME",
+  "portalStatus": "ENABLED",
+  "privateDescription": "sample private description",
+  "ssgUrl": "REPLACE_SSG_URL",
+  "version": 1
+}
+

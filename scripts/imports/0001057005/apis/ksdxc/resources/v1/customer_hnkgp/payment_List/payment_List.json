@@ -1,0 +1,13 @@
+{
+  "name": "payment_List",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "main",
+  "entity": "payment",
+  "join": "\"customer_id\" = [\"customer_id\"]",
+  "isCollection": true,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": true
+}

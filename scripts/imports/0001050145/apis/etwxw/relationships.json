@@ -1,0 +1,310 @@
+[
+  {
+    "parentEntity": "main:actor",
+    "childEntity": "main:film_actor",
+    "roleToParent": "actor",
+    "roleToChild": "film_actor_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "actor_id"
+    ],
+    "childColumns": [
+      "actor_id"
+    ]
+  },
+  {
+    "parentEntity": "main:address",
+    "childEntity": "main:customer",
+    "roleToParent": "address",
+    "roleToChild": "customer_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "address_id"
+    ],
+    "childColumns": [
+      "address_id"
+    ]
+  },
+  {
+    "parentEntity": "main:address",
+    "childEntity": "main:staff",
+    "roleToParent": "address",
+    "roleToChild": "staff_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "address_id"
+    ],
+    "childColumns": [
+      "address_id"
+    ]
+  },
+  {
+    "parentEntity": "main:address",
+    "childEntity": "main:store",
+    "roleToParent": "address",
+    "roleToChild": "store_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "address_id"
+    ],
+    "childColumns": [
+      "address_id"
+    ]
+  },
+  {
+    "parentEntity": "main:category",
+    "childEntity": "main:film_category",
+    "roleToParent": "category",
+    "roleToChild": "film_category_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "category_id"
+    ],
+    "childColumns": [
+      "category_id"
+    ]
+  },
+  {
+    "parentEntity": "main:city",
+    "childEntity": "main:address",
+    "roleToParent": "city",
+    "roleToChild": "address_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "city_id"
+    ],
+    "childColumns": [
+      "city_id"
+    ]
+  },
+  {
+    "parentEntity": "main:country",
+    "childEntity": "main:city",
+    "roleToParent": "country",
+    "roleToChild": "city_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "country_id"
+    ],
+    "childColumns": [
+      "country_id"
+    ]
+  },
+  {
+    "parentEntity": "main:customer",
+    "childEntity": "main:payment",
+    "roleToParent": "customer",
+    "roleToChild": "payment_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "customer_id"
+    ],
+    "childColumns": [
+      "customer_id"
+    ]
+  },
+  {
+    "parentEntity": "main:customer",
+    "childEntity": "main:rental",
+    "roleToParent": "customer",
+    "roleToChild": "rental_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "customer_id"
+    ],
+    "childColumns": [
+      "customer_id"
+    ]
+  },
+  {
+    "parentEntity": "main:film",
+    "childEntity": "main:film_actor",
+    "roleToParent": "film",
+    "roleToChild": "film_actor_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "film_id"
+    ],
+    "childColumns": [
+      "film_id"
+    ]
+  },
+  {
+    "parentEntity": "main:film",
+    "childEntity": "main:film_category",
+    "roleToParent": "film",
+    "roleToChild": "film_category_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "film_id"
+    ],
+    "childColumns": [
+      "film_id"
+    ]
+  },
+  {
+    "parentEntity": "main:film",
+    "childEntity": "main:inventory",
+    "roleToParent": "film",
+    "roleToChild": "inventory_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "film_id"
+    ],
+    "childColumns": [
+      "film_id"
+    ]
+  },
+  {
+    "parentEntity": "main:inventory",
+    "childEntity": "main:rental",
+    "roleToParent": "inventory",
+    "roleToChild": "rental_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "inventory_id"
+    ],
+    "childColumns": [
+      "inventory_id"
+    ]
+  },
+  {
+    "parentEntity": "main:language",
+    "childEntity": "main:film",
+    "roleToParent": "language",
+    "roleToChild": "film_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "language_id"
+    ],
+    "childColumns": [
+      "language_id"
+    ]
+  },
+  {
+    "parentEntity": "main:language",
+    "childEntity": "main:film",
+    "roleToParent": "language_via_original_language_id",
+    "roleToChild": "film_List_via_original_language_id",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "language_id"
+    ],
+    "childColumns": [
+      "original_language_id"
+    ]
+  },
+  {
+    "parentEntity": "main:rental",
+    "childEntity": "main:payment",
+    "roleToParent": "rental",
+    "roleToChild": "payment_List",
+    "deleteRule": "Set NULL",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "rental_id"
+    ],
+    "childColumns": [
+      "rental_id"
+    ]
+  },
+  {
+    "parentEntity": "main:staff",
+    "childEntity": "main:payment",
+    "roleToParent": "staff",
+    "roleToChild": "payment_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "staff_id"
+    ],
+    "childColumns": [
+      "staff_id"
+    ]
+  },
+  {
+    "parentEntity": "main:staff",
+    "childEntity": "main:rental",
+    "roleToParent": "staff",
+    "roleToChild": "rental_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "staff_id"
+    ],
+    "childColumns": [
+      "staff_id"
+    ]
+  },
+  {
+    "parentEntity": "main:staff",
+    "childEntity": "main:store",
+    "roleToParent": "staff",
+    "roleToChild": "store_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "staff_id"
+    ],
+    "childColumns": [
+      "manager_staff_id"
+    ]
+  },
+  {
+    "parentEntity": "main:store",
+    "childEntity": "main:customer",
+    "roleToParent": "store",
+    "roleToChild": "customer_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "store_id"
+    ],
+    "childColumns": [
+      "store_id"
+    ]
+  },
+  {
+    "parentEntity": "main:store",
+    "childEntity": "main:inventory",
+    "roleToParent": "store",
+    "roleToChild": "inventory_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "store_id"
+    ],
+    "childColumns": [
+      "store_id"
+    ]
+  },
+  {
+    "parentEntity": "main:store",
+    "childEntity": "main:staff",
+    "roleToParent": "store",
+    "roleToChild": "staff_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "store_id"
+    ],
+    "childColumns": [
+      "store_id"
+    ]
+  }
+]

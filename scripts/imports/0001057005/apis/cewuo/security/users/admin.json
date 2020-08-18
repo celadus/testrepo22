@@ -1,0 +1,15 @@
+{
+  "name": "admin",
+  "fullname": "Admin Account with full access",
+  "email": null,
+  "isActive": true,
+  "comments": null,
+  "keyLifetimeSeconds": null,
+  "passwordHash": "Qt91fvxCZYr6135pGGZnpnT/N9/YQ3I7Ml9wNgkO4YSvGMKjIS2P+LL8kyjaZmgO2vGpyCryAfeFBXSt0aZzpQ==",
+  "passwordSalt": "5qk24jS4n3K1G1OOKNYwlNf0Mizs7s1TzAVl4FMT",
+  "roles": [
+    "Full access"
+  ],
+  "globals": {
+  }
+}

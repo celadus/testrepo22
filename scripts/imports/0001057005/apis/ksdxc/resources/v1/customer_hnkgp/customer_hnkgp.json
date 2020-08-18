@@ -1,0 +1,38 @@
+{
+  "name": "customer_hnkgp",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "main",
+  "entity": "customer",
+  "isCollection": true,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "customer",
+      "attribute": "customer_id",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "store",
+      "attribute": "store_id",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "last_name",
+      "attribute": "last_name",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "email",
+      "attribute": "email",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

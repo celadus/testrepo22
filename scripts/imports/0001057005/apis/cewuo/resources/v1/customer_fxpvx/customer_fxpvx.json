@@ -1,0 +1,12 @@
+{
+  "name": "customer_fxpvx",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "main",
+  "entity": "customer",
+  "isCollection": true,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": true
+}

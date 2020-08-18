@@ -1,0 +1,1716 @@
+{
+  "name": "sakila - lac",
+  "prefix": "main",
+  "title": null,
+  "databaseType": "MYSQL",
+  "comments": "Created using Connect Wizard",
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "useDefinedModel": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:mysql://mysql-server:3306/sakila",
+  "catalog": "sakila",
+  "schema": null,
+  "username": "lac",
+  "encryptedPassword": "2:r23cW9yC8paKypumQTkClw==",
+  "encryptedPasswordSalt": "RlyxDOo93Dum1Y525L+cohA4YqVvwcuYIssjgg91",
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  },
+  "procedureInfos": {
+  },
+  "schemaCache": {
+    "serializedSchemaVersion": "Product 5.3.00.{$espressoBuildNumber} Serialized MetaSchema 60",
+    "prefix": "main",
+    "properties": {
+      "catalog": "sakila",
+      "schema": null,
+      "sqlStrategy": {
+        "sqlStrategyClassName": "com.kahuna.server.db.mysql.SqlStrategyMySql",
+        "supportBoolean": false,
+        "databaseProductName": "MySQL",
+        "databaseProductVersion": "5.7.30"
+      },
+      "tableViewFilteredCount": 0,
+      "procedureFilteredCount": 0,
+      "supportBoolean": false
+    },
+    "extendedProperties": {
+      "databaseCharacterSetName": "utf8",
+      "databaseCollationName": "utf8_general_ci"
+    },
+    "typeDefinitions": {
+      "blob": {
+        "modelType": "Binary",
+        "jdbcSqlType": 2004,
+        "maxLength": 65535
+      },
+      "char(20)": {
+        "modelType": "String",
+        "jdbcSqlType": 1,
+        "maxLength": 20,
+        "isFixedLength": true
+      },
+      "datetime": {
+        "modelType": "Timestamp",
+        "jdbcSqlType": 93,
+        "precision": 0
+      },
+      "decimal(10,2) unsigned": {
+        "modelType": "DecimalNumber",
+        "jdbcSqlType": 3,
+        "precision": 10,
+        "scale": 2
+      },
+      "decimal(27,2)": {
+        "modelType": "DecimalNumber",
+        "jdbcSqlType": 3,
+        "precision": 27,
+        "scale": 2
+      },
+      "decimal(4,2)": {
+        "modelType": "DecimalNumber",
+        "jdbcSqlType": 3,
+        "precision": 4,
+        "scale": 2
+      },
+      "decimal(5,2)": {
+        "modelType": "DecimalNumber",
+        "jdbcSqlType": 3,
+        "precision": 5,
+        "scale": 2
+      },
+      "enum('G','PG','PG-13','R','NC-17')": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": -1
+      },
+      "geometry": {
+        "modelType": "Binary",
+        "jdbcSqlType": -2,
+        "maxLength": -1
+      },
+      "int(11)": {
+        "modelType": "IntegralNumber",
+        "jdbcSqlType": 4,
+        "numBytes": 4
+      },
+      "mediumint(8) unsigned": {
+        "modelType": "UnsignedIntegralNumber",
+        "jdbcSqlType": 1111,
+        "numBytes": 3
+      },
+      "set('Trailers','Commentaries','Deleted Scenes','Behind the Scenes')": {
+        "modelType": "Collection",
+        "jdbcSqlType": 2003,
+        "isUserDefinedType": true,
+        "genericType": "collection",
+        "upperBound": -1,
+        "containedAttrTypeName": "varchar",
+        "isNullable": false,
+        "dbCollectionType": "set"
+      },
+      "smallint(5) unsigned": {
+        "modelType": "UnsignedIntegralNumber",
+        "jdbcSqlType": 1111,
+        "numBytes": 2
+      },
+      "smallint(6)": {
+        "modelType": "IntegralNumber",
+        "jdbcSqlType": 5,
+        "numBytes": 2
+      },
+      "text": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 65535
+      },
+      "timestamp": {
+        "modelType": "TimestampOffset",
+        "jdbcSqlType": 93,
+        "precision": 0
+      },
+      "tinyint(1)": {
+        "modelType": "IntegralNumber",
+        "jdbcSqlType": -6,
+        "numBytes": 1
+      },
+      "tinyint(3) unsigned": {
+        "modelType": "UnsignedIntegralNumber",
+        "jdbcSqlType": 1111,
+        "numBytes": 1
+      },
+      "varchar": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": -1
+      },
+      "varchar(10)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 10
+      },
+      "varchar(101)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 101
+      },
+      "varchar(16)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 16
+      },
+      "varchar(20)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 20
+      },
+      "varchar(25)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 25
+      },
+      "varchar(255)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 255
+      },
+      "varchar(40) character set utf8 collation utf8_bin": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 40
+      },
+      "varchar(45)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 45
+      },
+      "varchar(50)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 50
+      },
+      "varchar(6)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 6
+      },
+      "varchar(91)": {
+        "modelType": "String",
+        "jdbcSqlType": 12,
+        "maxLength": 91
+      },
+      "year": {
+        "modelType": "IntegralNumber",
+        "jdbcSqlType": 4,
+        "numBytes": 4
+      }
+    },
+    "tables": [
+      {
+        "name": "actor",
+        "columns": [
+          {
+            "name": "actor_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "first_name",
+            "attrTypeName": "varchar(45)"
+          },
+          {
+            "name": "last_name",
+            "attrTypeName": "varchar(45)"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "actor_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "address",
+        "columns": [
+          {
+            "name": "address_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "address",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "address2",
+            "isNullable": true,
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "district",
+            "attrTypeName": "varchar(20)"
+          },
+          {
+            "name": "city_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "postal_code",
+            "isNullable": true,
+            "attrTypeName": "varchar(10)"
+          },
+          {
+            "name": "phone",
+            "attrTypeName": "varchar(20)"
+          },
+          {
+            "name": "location",
+            "attrTypeName": "geometry"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "address_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "category",
+        "columns": [
+          {
+            "name": "category_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "name",
+            "attrTypeName": "varchar(25)"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "category_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "city",
+        "columns": [
+          {
+            "name": "city_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "city",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "country_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "city_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "country",
+        "columns": [
+          {
+            "name": "country_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "country",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "country_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "customer",
+        "columns": [
+          {
+            "name": "customer_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "store_id",
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "first_name",
+            "attrTypeName": "varchar(45)"
+          },
+          {
+            "name": "last_name",
+            "attrTypeName": "varchar(45)"
+          },
+          {
+            "name": "email",
+            "isNullable": true,
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "address_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "active",
+            "isDefaulted": true,
+            "attrTypeName": "tinyint(1)"
+          },
+          {
+            "name": "create_date",
+            "attrTypeName": "datetime"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "customer_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "film",
+        "columns": [
+          {
+            "name": "film_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "title",
+            "attrTypeName": "varchar(255)"
+          },
+          {
+            "name": "description",
+            "isNullable": true,
+            "attrTypeName": "text"
+          },
+          {
+            "name": "release_year",
+            "isNullable": true,
+            "attrTypeName": "year"
+          },
+          {
+            "name": "language_id",
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "original_language_id",
+            "isNullable": true,
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "rental_duration",
+            "isDefaulted": true,
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "rental_rate",
+            "isDefaulted": true,
+            "attrTypeName": "decimal(4,2)"
+          },
+          {
+            "name": "length",
+            "isNullable": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "replacement_cost",
+            "isDefaulted": true,
+            "attrTypeName": "decimal(5,2)"
+          },
+          {
+            "name": "rating",
+            "isNullable": true,
+            "isDefaulted": true,
+            "attrTypeName": "enum('G','PG','PG-13','R','NC-17')"
+          },
+          {
+            "name": "special_features",
+            "isNullable": true,
+            "attrTypeName": "set('Trailers','Commentaries','Deleted Scenes','Behind the Scenes')"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "film_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "film_actor",
+        "columns": [
+          {
+            "name": "actor_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "film_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "actor_id",
+              "film_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "film_category",
+        "columns": [
+          {
+            "name": "film_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "category_id",
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "film_id",
+              "category_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "film_text",
+        "columns": [
+          {
+            "name": "film_id",
+            "attrTypeName": "smallint(6)"
+          },
+          {
+            "name": "title",
+            "attrTypeName": "varchar(255)"
+          },
+          {
+            "name": "description",
+            "isNullable": true,
+            "attrTypeName": "text"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "film_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "inventory",
+        "columns": [
+          {
+            "name": "inventory_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "mediumint(8) unsigned"
+          },
+          {
+            "name": "film_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "store_id",
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "inventory_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "language",
+        "columns": [
+          {
+            "name": "language_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "name",
+            "attrTypeName": "char(20)"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "language_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "payment",
+        "columns": [
+          {
+            "name": "payment_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "customer_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "staff_id",
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "rental_id",
+            "isNullable": true,
+            "attrTypeName": "int(11)"
+          },
+          {
+            "name": "amount",
+            "attrTypeName": "decimal(5,2)"
+          },
+          {
+            "name": "payment_date",
+            "attrTypeName": "datetime"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "payment_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "rental",
+        "columns": [
+          {
+            "name": "rental_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "int(11)"
+          },
+          {
+            "name": "rental_date",
+            "attrTypeName": "datetime"
+          },
+          {
+            "name": "inventory_id",
+            "attrTypeName": "mediumint(8) unsigned"
+          },
+          {
+            "name": "customer_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "return_date",
+            "isNullable": true,
+            "attrTypeName": "datetime"
+          },
+          {
+            "name": "staff_id",
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "rental_id"
+            ]
+          },
+          {
+            "name": "rental_date",
+            "isDatabasePrimary": false,
+            "columns": [
+              "rental_date",
+              "inventory_id",
+              "customer_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "staff",
+        "columns": [
+          {
+            "name": "staff_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "first_name",
+            "attrTypeName": "varchar(45)"
+          },
+          {
+            "name": "last_name",
+            "attrTypeName": "varchar(45)"
+          },
+          {
+            "name": "address_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "picture",
+            "isNullable": true,
+            "attrTypeName": "blob"
+          },
+          {
+            "name": "email",
+            "isNullable": true,
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "store_id",
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "active",
+            "isDefaulted": true,
+            "attrTypeName": "tinyint(1)"
+          },
+          {
+            "name": "username",
+            "attrTypeName": "varchar(16)"
+          },
+          {
+            "name": "password",
+            "isNullable": true,
+            "attrTypeName": "varchar(40) character set utf8 collation utf8_bin"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "staff_id"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "store",
+        "columns": [
+          {
+            "name": "store_id",
+            "isAutoIncrement": true,
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "manager_staff_id",
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "address_id",
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "last_update",
+            "isVersion": true,
+            "isDefaulted": true,
+            "attrTypeName": "timestamp"
+          }
+        ],
+        "keys": [
+          {
+            "name": "idx_unique_manager",
+            "isDatabasePrimary": false,
+            "columns": [
+              "manager_staff_id"
+            ]
+          },
+          {
+            "name": "PRIMARY",
+            "isDatabasePrimary": true,
+            "columns": [
+              "store_id"
+            ]
+          }
+        ]
+      }
+    ],
+    "views": [
+      {
+        "name": "actor_info",
+        "columns": [
+          {
+            "name": "actor_id",
+            "isDefaulted": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "first_name",
+            "attrTypeName": "varchar(45)"
+          },
+          {
+            "name": "last_name",
+            "attrTypeName": "varchar(45)"
+          },
+          {
+            "name": "film_info",
+            "isNullable": true,
+            "attrTypeName": "text"
+          }
+        ],
+        "keys": [
+        ],
+        "checkOption": "NONE"
+      },
+      {
+        "name": "customer_list",
+        "columns": [
+          {
+            "name": "ID",
+            "isDefaulted": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "name",
+            "isNullable": true,
+            "attrTypeName": "varchar(91)"
+          },
+          {
+            "name": "address",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "zip code",
+            "isNullable": true,
+            "attrTypeName": "varchar(10)"
+          },
+          {
+            "name": "phone",
+            "attrTypeName": "varchar(20)"
+          },
+          {
+            "name": "city",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "country",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "notes",
+            "isDefaulted": true,
+            "attrTypeName": "varchar(6)"
+          },
+          {
+            "name": "SID",
+            "attrTypeName": "tinyint(3) unsigned"
+          }
+        ],
+        "keys": [
+        ],
+        "isUpdatable": true,
+        "checkOption": "NONE"
+      },
+      {
+        "name": "film_list",
+        "columns": [
+          {
+            "name": "FID",
+            "isNullable": true,
+            "isDefaulted": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "title",
+            "isNullable": true,
+            "attrTypeName": "varchar(255)"
+          },
+          {
+            "name": "description",
+            "isNullable": true,
+            "attrTypeName": "text"
+          },
+          {
+            "name": "category",
+            "attrTypeName": "varchar(25)"
+          },
+          {
+            "name": "price",
+            "isNullable": true,
+            "isDefaulted": true,
+            "attrTypeName": "decimal(4,2)"
+          },
+          {
+            "name": "length",
+            "isNullable": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "rating",
+            "isNullable": true,
+            "isDefaulted": true,
+            "attrTypeName": "enum('G','PG','PG-13','R','NC-17')"
+          },
+          {
+            "name": "actors",
+            "isNullable": true,
+            "attrTypeName": "text"
+          }
+        ],
+        "keys": [
+        ],
+        "checkOption": "NONE"
+      },
+      {
+        "name": "nicer_but_slower_film_list",
+        "columns": [
+          {
+            "name": "FID",
+            "isNullable": true,
+            "isDefaulted": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "title",
+            "isNullable": true,
+            "attrTypeName": "varchar(255)"
+          },
+          {
+            "name": "description",
+            "isNullable": true,
+            "attrTypeName": "text"
+          },
+          {
+            "name": "category",
+            "attrTypeName": "varchar(25)"
+          },
+          {
+            "name": "price",
+            "isNullable": true,
+            "isDefaulted": true,
+            "attrTypeName": "decimal(4,2)"
+          },
+          {
+            "name": "length",
+            "isNullable": true,
+            "attrTypeName": "smallint(5) unsigned"
+          },
+          {
+            "name": "rating",
+            "isNullable": true,
+            "isDefaulted": true,
+            "attrTypeName": "enum('G','PG','PG-13','R','NC-17')"
+          },
+          {
+            "name": "actors",
+            "isNullable": true,
+            "attrTypeName": "text"
+          }
+        ],
+        "keys": [
+        ],
+        "checkOption": "NONE"
+      },
+      {
+        "name": "sales_by_film_category",
+        "columns": [
+          {
+            "name": "category",
+            "attrTypeName": "varchar(25)"
+          },
+          {
+            "name": "total_sales",
+            "isNullable": true,
+            "attrTypeName": "decimal(27,2)"
+          }
+        ],
+        "keys": [
+        ],
+        "checkOption": "NONE"
+      },
+      {
+        "name": "sales_by_store",
+        "columns": [
+          {
+            "name": "store",
+            "isNullable": true,
+            "attrTypeName": "varchar(101)"
+          },
+          {
+            "name": "manager",
+            "isNullable": true,
+            "attrTypeName": "varchar(91)"
+          },
+          {
+            "name": "total_sales",
+            "isNullable": true,
+            "attrTypeName": "decimal(27,2)"
+          }
+        ],
+        "keys": [
+        ],
+        "checkOption": "NONE"
+      },
+      {
+        "name": "staff_list",
+        "columns": [
+          {
+            "name": "ID",
+            "isDefaulted": true,
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "name",
+            "isNullable": true,
+            "attrTypeName": "varchar(91)"
+          },
+          {
+            "name": "address",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "zip code",
+            "isNullable": true,
+            "attrTypeName": "varchar(10)"
+          },
+          {
+            "name": "phone",
+            "attrTypeName": "varchar(20)"
+          },
+          {
+            "name": "city",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "country",
+            "attrTypeName": "varchar(50)"
+          },
+          {
+            "name": "SID",
+            "attrTypeName": "tinyint(3) unsigned"
+          }
+        ],
+        "keys": [
+        ],
+        "isUpdatable": true,
+        "checkOption": "NONE"
+      }
+    ],
+    "procedures": [
+      {
+        "name": "film_in_stock",
+        "namespace": null,
+        "version": null,
+        "isFunction": false,
+        "parameters": [
+          {
+            "name": "p_film_id",
+            "direction": "IN",
+            "argPosition": 1,
+            "attrTypeName": "int(11)"
+          },
+          {
+            "name": "p_store_id",
+            "direction": "IN",
+            "argPosition": 2,
+            "attrTypeName": "int(11)"
+          },
+          {
+            "name": "p_film_count",
+            "direction": "OUT",
+            "argPosition": 3,
+            "attrTypeName": "int(11)"
+          }
+        ]
+      },
+      {
+        "name": "film_not_in_stock",
+        "namespace": null,
+        "version": null,
+        "isFunction": false,
+        "parameters": [
+          {
+            "name": "p_film_id",
+            "direction": "IN",
+            "argPosition": 1,
+            "attrTypeName": "int(11)"
+          },
+          {
+            "name": "p_store_id",
+            "direction": "IN",
+            "argPosition": 2,
+            "attrTypeName": "int(11)"
+          },
+          {
+            "name": "p_film_count",
+            "direction": "OUT",
+            "argPosition": 3,
+            "attrTypeName": "int(11)"
+          }
+        ]
+      },
+      {
+        "name": "get_customer_balance",
+        "namespace": null,
+        "version": null,
+        "isFunction": true,
+        "parameters": [
+          {
+            "name": "FUNCTION_RETURN_VALUE",
+            "direction": "OUT",
+            "argPosition": 0,
+            "attrTypeName": "decimal(5,2)"
+          },
+          {
+            "name": "p_customer_id",
+            "direction": "IN",
+            "argPosition": 1,
+            "attrTypeName": "int(11)"
+          },
+          {
+            "name": "p_effective_date",
+            "direction": "IN",
+            "argPosition": 2,
+            "attrTypeName": "datetime"
+          }
+        ]
+      },
+      {
+        "name": "inventory_held_by_customer",
+        "namespace": null,
+        "version": null,
+        "isFunction": true,
+        "parameters": [
+          {
+            "name": "FUNCTION_RETURN_VALUE",
+            "direction": "OUT",
+            "argPosition": 0,
+            "attrTypeName": "int(11)"
+          },
+          {
+            "name": "p_inventory_id",
+            "direction": "IN",
+            "argPosition": 1,
+            "attrTypeName": "int(11)"
+          }
+        ]
+      },
+      {
+        "name": "inventory_in_stock",
+        "namespace": null,
+        "version": null,
+        "isFunction": true,
+        "parameters": [
+          {
+            "name": "FUNCTION_RETURN_VALUE",
+            "direction": "OUT",
+            "argPosition": 0,
+            "attrTypeName": "tinyint(1)"
+          },
+          {
+            "name": "p_inventory_id",
+            "direction": "IN",
+            "argPosition": 1,
+            "attrTypeName": "int(11)"
+          }
+        ]
+      },
+      {
+        "name": "rewards_report",
+        "namespace": null,
+        "version": null,
+        "isFunction": false,
+        "parameters": [
+          {
+            "name": "min_monthly_purchases",
+            "direction": "IN",
+            "argPosition": 1,
+            "attrTypeName": "tinyint(3) unsigned"
+          },
+          {
+            "name": "min_dollar_amount_purchased",
+            "direction": "IN",
+            "argPosition": 2,
+            "attrTypeName": "decimal(10,2) unsigned"
+          },
+          {
+            "name": "count_rewardees",
+            "direction": "OUT",
+            "argPosition": 3,
+            "attrTypeName": "int(11)"
+          }
+        ]
+      }
+    ],
+    "foreignKeys": [
+      {
+        "name": "fk_address_city",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "city"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "address"
+        },
+        "columns": [
+          {
+            "parent": "city_id",
+            "child": "city_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_city_country",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "country"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "city"
+        },
+        "columns": [
+          {
+            "parent": "country_id",
+            "child": "country_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_customer_address",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "address"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "customer"
+        },
+        "columns": [
+          {
+            "parent": "address_id",
+            "child": "address_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_customer_store",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "store"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "customer"
+        },
+        "columns": [
+          {
+            "parent": "store_id",
+            "child": "store_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_film_actor_actor",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "actor"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "film_actor"
+        },
+        "columns": [
+          {
+            "parent": "actor_id",
+            "child": "actor_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_film_actor_film",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "film"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "film_actor"
+        },
+        "columns": [
+          {
+            "parent": "film_id",
+            "child": "film_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_film_category_category",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "category"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "film_category"
+        },
+        "columns": [
+          {
+            "parent": "category_id",
+            "child": "category_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_film_category_film",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "film"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "film_category"
+        },
+        "columns": [
+          {
+            "parent": "film_id",
+            "child": "film_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_film_language",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "language"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "film"
+        },
+        "columns": [
+          {
+            "parent": "language_id",
+            "child": "language_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_film_language_original",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "language"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "film"
+        },
+        "columns": [
+          {
+            "parent": "language_id",
+            "child": "original_language_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_inventory_film",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "film"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "inventory"
+        },
+        "columns": [
+          {
+            "parent": "film_id",
+            "child": "film_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_inventory_store",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "store"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "inventory"
+        },
+        "columns": [
+          {
+            "parent": "store_id",
+            "child": "store_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_payment_customer",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "customer"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "payment"
+        },
+        "columns": [
+          {
+            "parent": "customer_id",
+            "child": "customer_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_payment_rental",
+        "updateRule": "CASCADE",
+        "deleteRule": "SET_NULL",
+        "parent": {
+          "catalog": "sakila",
+          "name": "rental"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "payment"
+        },
+        "columns": [
+          {
+            "parent": "rental_id",
+            "child": "rental_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_payment_staff",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "staff"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "payment"
+        },
+        "columns": [
+          {
+            "parent": "staff_id",
+            "child": "staff_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_rental_customer",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "customer"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "rental"
+        },
+        "columns": [
+          {
+            "parent": "customer_id",
+            "child": "customer_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_rental_inventory",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "inventory"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "rental"
+        },
+        "columns": [
+          {
+            "parent": "inventory_id",
+            "child": "inventory_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_rental_staff",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "staff"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "rental"
+        },
+        "columns": [
+          {
+            "parent": "staff_id",
+            "child": "staff_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_staff_address",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "address"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "staff"
+        },
+        "columns": [
+          {
+            "parent": "address_id",
+            "child": "address_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_staff_store",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "store"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "staff"
+        },
+        "columns": [
+          {
+            "parent": "store_id",
+            "child": "store_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_store_address",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "address"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "store"
+        },
+        "columns": [
+          {
+            "parent": "address_id",
+            "child": "address_id"
+          }
+        ]
+      },
+      {
+        "name": "fk_store_staff",
+        "updateRule": "CASCADE",
+        "deleteRule": "NO_ACTION",
+        "parent": {
+          "catalog": "sakila",
+          "name": "staff"
+        },
+        "child": {
+          "catalog": "sakila",
+          "name": "store"
+        },
+        "columns": [
+          {
+            "parent": "staff_id",
+            "child": "manager_staff_id"
+          }
+        ]
+      }
+    ]
+  }
+}

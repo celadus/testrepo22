@@ -1,0 +1,33 @@
+{
+  "name": "NewDS_ekv",
+  "prefix": "prefix_ekv",
+  "title": "MySQL",
+  "databaseType": "MYSQL",
+  "comments": null,
+  "isActive": false,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "useDefinedModel": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:mysql://<host>:<port>/<database>",
+  "catalog": null,
+  "schema": null,
+  "username": "jdoe",
+  "encryptedPassword": null,
+  "encryptedPasswordSalt": "zBcVdUnGiqMSlWMh1vN7PZ6swnhQ+9/D//w/WPpM",
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  },
+  "procedureInfos": {
+  }
+}

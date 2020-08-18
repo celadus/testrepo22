@@ -1,0 +1,7 @@
+{
+  "name": "sakila-cewuo",
+  "urlFragment": "cewuo",
+  "comments": "Insert comments here",
+  "isEnabled": true,
+  "authProviderName": "Built-in authentication"
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "policyEntityUuid": "b2431534-dcb6-483e-bd20-b6c0a5e98f3a",
+        "policyTemplateArguments": [
+            {
+               "name": "scope_list",
+                "value": "camena poc ozan"
+            }
+        ]
+    }
+]

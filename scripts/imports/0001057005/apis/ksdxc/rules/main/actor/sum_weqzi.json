@@ -1,0 +1,16 @@
+{
+  "name": "sum_weqzi",
+  "entity": "actor",
+  "isActive": false,
+  "ruleType": "sum",
+  "attribute": null,
+  "roleToChildren": null,
+  "childAttribute": null,
+  "qualification": null,
+  "isJIT": false,
+  "isAutoTitle": true,
+  "title": "null = sum(null.null)",
+  "comments": null,
+  "topics": [
+  ]
+}

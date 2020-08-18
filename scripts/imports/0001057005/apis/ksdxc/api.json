@@ -1,0 +1,7 @@
+{
+  "name": "sakila-ksdxc",
+  "urlFragment": "ksdxc",
+  "comments": "Insert comments here",
+  "isEnabled": true,
+  "authProviderName": "Built-in authentication"
+}

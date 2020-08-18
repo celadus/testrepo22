@@ -1,0 +1,7 @@
+{
+  "deploymentType": "AUTOMATIC",
+  "enrollmentStatus": "PENDING",
+  "name": "REPLACE_NAME",
+  "uuid": "REPLACE_UUID"
+}
+

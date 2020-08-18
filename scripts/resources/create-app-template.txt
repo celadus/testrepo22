@@ -1,0 +1,36 @@
+{
+  "ApiApiPlanIds": {
+    "results": [
+      
+    ]
+  },
+  "ApiGroupIds": {
+    "results": [
+     
+    ]
+  },
+  "ApiIds": {
+    "results": [
+      "REPLACE_APIID"
+    ]
+  },
+  "ApiKey": "REPLACE_UUID4",
+  "CustomFieldValues": {
+    "results": [
+    ]
+  },
+  "Description": "REPLACE_APPNAME",
+  "DisabledByType": "INTERNAL",
+  "KeySecret": "REPLACE_UUID3",
+  "MagMasterKey": "REPLACE_UUID1",
+  "MagScope": "string",
+  "Name": "REPLACE_APPNAME",
+  "OauthCallbackUrl": null,
+  "OauthScope": "REPLACE_OAUTH_SCOPE",
+  "OauthType": "confidential",
+  "OrganizationName": "Sample Org",
+  "OrganizationUuid": "5561fbed-5422-46d6-8358-c41a1b659d7f",
+  "Reason": "No Reason",
+  "Status": "ENABLED",
+  "Uuid": "REPLACE_UUID2"
+}
